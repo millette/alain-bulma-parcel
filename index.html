@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+<title>Bulma template 1</title>
+</head>
+<body>
+<div class="container">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://bulma.io">
+	<img src="bulma-logo.png" width="112" height="28">
+      </a>
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+	<span aria-hidden="true"></span>
+	<span aria-hidden="true"></span>
+	<span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+	<a class="navbar-item">Accueil</a>
+	<a class="navbar-item">Sections</a>
+	<a class="navbar-item">Sujets</a>
+	 <div class="navbar-item has-dropdown is-hoverable">
+	  <a class="navbar-link">Sites</a>
+	  <div class="navbar-dropdown">
+	    <a class="navbar-item">PhdAdmin</a>
+	    <a class="navbar-item">MyBusiness</a>
+	    <a class="navbar-item">MyCulture</a>
+	    <a class="navbar-item">Etc</a>
+	  </div>
+	</div>
+	<div class="navbar-item has-dropdown is-hoverable">
+	  <a class="navbar-link">Langues</a>
+	  <div class="navbar-dropdown">
+	    <a class="navbar-item">Anglais</a>
+	    <a class="navbar-item">Arabe</a>
+	    <a class="navbar-item">Espagnol</a>
+	    <a class="navbar-item">Francais</a>
+	    <a class="navbar-item">Italien</a>
+	    <a class="navbar-item">Russe</a>
+	  </div>
+	</div>
+	<div class="navbar-item has-dropdown is-hoverable">
+	  <a class="navbar-link">Views</a>
+	  <div class="navbar-dropdown">
+	    <a class="navbar-item">Index</a>
+	    <a class="navbar-item">Ressources</a>
+	    <a class="navbar-item">Etc</a>
+	  </div>
+	</div>
+	<div class="navbar-item has-dropdown is-hoverable">
+	  <a class="navbar-link">Davantage</a>
+	  <div class="navbar-dropdown">
+	    <a class="navbar-item">&Agrave; propos</a>
+	    <a class="navbar-item">Emplois</a>
+	    <a class="navbar-item">Contactez-nous</a>
+	    <a class="navbar-item">Support technique</a>
+	  </div>
+	</div>
+      </div>
+      <div class="navbar-end">
+	<div class="navbar-item">
+	  <div class="buttons">
+	    <a class="button is-light"><span>M'abonner</span></a>
+	    <a class="button is-info"><span>Acc&eacute;der</span></a>
+	  </div>
+	</div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">PhdAdministration</h1>
+      <h2 class="subtitle">Nouvelles pour administrateurs &eacute;clair&eacute;s</h2>
+      <nav class="breadcrumb" aria-label="breadcrumbs">
+		<ul>
+			<li><a href="#">Accueil</a></li>
+			<li><a href="#">Sections</a></li>
+			<li><a href="#">Recherche</a></li>
+			<li><a href="#">Gestion</a></li>
+			<li><a href="#">Gestion financi&egrave;re dans les universit&eacute;s</a></li>
+			<li class="is-active"><a href="#" aria-current="page">Exemple</a></li>
+		</ul>
+		</nav>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="tile is-ancestor">
+	  <!-- # -->
+	  <div class="tile is-3 is-parent is-vertical">
+		  <article class="tile is-child notification is-outlined">
+			  <p class="title">Menu</p>
+			  <div class="tile is-child">
+				  <p class="subtitle">Ressources par <strong>section</strong></p>
+				  <ul>
+				  <li><a href="#">A propos</a></li>
+				  <li><a href="#">Recherche</a></li>
+				  <li><a href="#">Etc</a></li>
+				  </ul>
+			  </div>
+			  <div class="tile is-child">
+				  <br>
+				  <p class="subtitle">Ressources par <strong>sujet</strong></p>
+				  <ul>
+				  <li><a href="#">Agriculture</a></li>
+				  <li><a href="#">Gestion</a></li>
+				  <li><a href="#">Etc</a></li>
+				  </ul>
+			  </div>
+	</article>
+	  </div>
+     <!-- # -->
+	  <div class="tile is-6 is-parent">
+		  <article class="tile is-child notification is-outlined">
+			  <p class="title">Ressources</p>
+			  <p class="subtitle">Ressources de type <strong>site</strong>, tri&eacute;es par <strong>nom</strong></p>
+			  <div class="content">
+			   <table class="table is-fullwidth is-bordered is-striped is-hoverable">
+			   <tr id="aR0">
+			   <th width="5%" id="aR0C1">#</th>
+			   <th width="30%" id="aR0C2">nom-machine</th>
+			   <th width="65%" id="aR0C3">nom</th>
+			   </tr>
+			   <tr id="aR1">
+			   <td id="aR1C1"><input type="checkbox" name="aR1" value="aR1"></td>
+			   <td id="aR1C2">site-2016-04-04-03-33-19-87585311960</td>
+			   <td id="aR1C3"><a href="http://revistaalabe.com">&#193;labe</a></td>
+			   </tr>
+			   <tr id="aR2">
+			   <td id="aR2C1"><input type="checkbox" name="aR2" value="aR2"></td>
+			   <td id="aR2C2">site-2015-01-25-10-39-47-85332023250</td>
+			   <td id="aR2C3"><a href="http://puertolibre2.blogspot.ca">&#193;ngeles Mastretta</a></td>
+			   </tr>
+			   <tr id="aR3">
+			   <td id="aR3C1"><input type="checkbox" name="aR3" value="aR3"></td>
+			   <td id="aR3C2">site-2016-04-04-03-27-38-87585291483</td>
+			   <td id="aR3C3"><a href="http://www.eer.cz">&#201;cho des &#233;tudes romanes</a></td>
+			   </tr>
+			   <tr id="aR4">
+			   <td id="aR4C1"><input type="checkbox" name="aR4" value="aR4"></td>
+			   <td id="aR4C2">site-2016-03-25-07-04-12-87534231122</td>
+			   <td id="aR4C3"><a href="http://www.eco-coop.ca">&#201;co coop</a></td>
+			   </tr>
+			   <tr id="aR5">
+			   <td id="aR5C1"><input type="checkbox" name="aR5" value="aR5"></td>
+			   <td id="aR5C2">site-2016-03-25-07-03-13-87534227631</td>
+			   <td id="aR5C3"><a href="http://www.ecohabitation.com">&#201;cohabitation</a></td>
+			   </tr>
+			   </table>
+			  </div>
+			  <nav class="pagination is-rounded" role="navigation" aria-label="pagination">
+			    <a class="pagination-previous">Page pr&eacute;c&eacute;dente</a>
+			    <a class="pagination-next">Page suivante</a>
+			    <ul class="pagination-list">
+				   <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+				   <li><span class="pagination-ellipsis">&hellip;</span></li>
+				   <li><a class="pagination-link is-current" aria-label="Page 3" aria-current="page" style="color: white;">3</a></li>
+				   <li><span class="pagination-ellipsis">&hellip;</span></li>
+				   <li><a class="pagination-link" aria-label="Goto page 86">86</a></li>
+			    </ul>
+			  </nav>
+      </article>
+	  </div>
+     <!-- # -->
+	  <div class="tile is-3 is-parent">
+		  <article class="tile is-child notification is-outlined">
+			  <p class="title">Pr&eacute;f&eacute;rences</p>
+			  <p class="subtitle">Ent&ecirc;tes</p>
+			  <div class="tile is-child">
+				  <a class="button is-info hideMe">Hide TH</a>
+				  <a class="button is-info showMe">Show TH</a>
+			  </div>
+			  <div class="tile is-child">
+			  <br>
+			  <p class="subtitle">From JSON object</p>
+			  <p><span id="site-2016-04-04-03-33-19-87585311960"></span></p>
+			  </div>
+			  <div class="tile is-child">
+			  <br>
+			  <p class="subtitle">Filtres actuels</p>
+			  <ul>
+			  <li><a href="#">Filtre 1</a></li>
+			  <li><a href="#">Filtre 2</a></li>
+			  <li><a href="#">Filtre 3</a></li>
+			  <li><a href="#">Filtre n</a></li>
+			  </ul>
+			  </div>
+		  </article>
+	  </div>
+     <!-- # -->
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p><strong>Machina Mundi Multi M&eacute;dia Inc.</strong>. &copy; 2018. Tous les droits sont r&eacute;serv&eacute;s.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>
