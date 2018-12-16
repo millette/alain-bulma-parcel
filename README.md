@@ -19,3 +19,4 @@ npm run build # produit une version finale (production) dans dist/
 - Le HTML réfère à bulma via son chemin dans les modules
 - Le HTML réfère à main.js uniquement, aucun autre JS
 - main.js s'occupe d'importer jQuery et le JSON (grace à parcel)
+- Les fichiers JSON, HTML et JS sont reformattés (voir le fichier .prettierrc) automatiquement avant d'être committés
