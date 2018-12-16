@@ -2,7 +2,7 @@
   "name": "alain-bulma-parcel",
   "version": "0.0.0",
   "lint-staged": {
-    "*.{js,json,md}": [
+    "*.{html,js,json,md}": [
       "prettier --write",
       "git add"
     ]
