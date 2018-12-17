@@ -24,7 +24,13 @@
     "jquery": "^3.3.1",
     "lint-staged": "^8.1.0",
     "parcel-bundler": "^1.10.3",
+    "parcel-plugin-purgecss": "^2.1.0",
     "prettier": "^1.15.3",
     "sass": "^1.15.2"
+  },
+  "purgecss": {
+    "content": [
+      "*.html"
+    ]
   }
 }
