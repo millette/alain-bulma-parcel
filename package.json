@@ -31,6 +31,9 @@
   "purgecss": {
     "content": [
       "*.html"
+    ],
+    "whitelist": [
+      "is-hidden"
     ]
   }
 }
