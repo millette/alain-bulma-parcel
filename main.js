@@ -7,13 +7,13 @@ const clicker = (sel, fn) =>
     "click",
     (ev) => {
       ev.preventDefault()
-      fn()
+      fn(ev)
     },
     false,
   )
 
-clicker("a.hideMe", (ev) => headerRow.classList.add("is-hidden"))
-clicker("a.showMe", (ev) => headerRow.classList.remove("is-hidden"))
+clicker("a.hideMe", () => headerRow.classList.add("is-hidden"))
+clicker("a.showMe", () => headerRow.classList.remove("is-hidden"))
 
 document.getElementById(myObj.nomMachine).innerHTML = `<a href="${
   myObj.urlCanonique
