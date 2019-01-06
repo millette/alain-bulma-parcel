@@ -13,19 +13,19 @@
     }
   },
   "scripts": {
-    "build": "NODE_ENV=production parcel build index.html",
+    "build": "parcel build index.html",
     "clean": "rm -fr dist .cache",
     "start": "parcel index.html",
     "watch": "parcel watch index.html"
   },
   "devDependencies": {
     "bulma": "^0.7.2",
-    "husky": "^1.3.0",
+    "husky": "^1.3.1",
     "lint-staged": "^8.1.0",
     "parcel-bundler": "^1.11.0",
     "parcel-plugin-purgecss": "^2.1.0",
     "prettier": "^1.15.3",
-    "sass": "^1.15.2"
+    "sass": "^1.15.3"
   },
   "purgecss": {
     "content": [
